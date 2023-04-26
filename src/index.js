@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { addImages } from './js/addImages';
 import { makeGallery } from './js/makeGallery';
-import { getRefs } from './js/getRefs';
+// import { getRefs } from './js/getRefs';
 import { showSpinner, hideSpinner } from './js/getRefs';
 
 showSpinner();
