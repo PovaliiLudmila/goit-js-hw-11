@@ -163,7 +163,7 @@ h1 {
     border-top-color: #7983ff;
     border-radius: 50%;
     animation: spin 1s ease-in-out infinite;
-    z-index: 999;
+    z-index: 9999;
     display: none;
 }
 
