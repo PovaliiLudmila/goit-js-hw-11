@@ -79,7 +79,7 @@ async function onLoadMore() {
     const response = await addImages(currentQuery, pageNumber, per_page);
     const images = response.data.hits;
 
-    renderGallery(images);
+    makeGallery(images);
     lightbox.refresh();
     scrollToNextImages();
   } catch (error) {
