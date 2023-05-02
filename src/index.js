@@ -124,7 +124,6 @@ window.addEventListener('scroll', () => {
     scrollTopBtn.style.display = 'none';
   }
 });
-
 scrollTopBtn.addEventListener('click', () => {
   window.scroll({
     top: 0,
